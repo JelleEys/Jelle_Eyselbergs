@@ -1,0 +1,39 @@
+<!-- opslaan als: assets/patronen/topo_ngi_style.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1600" viewBox="0 0 1600 1600">
+  <rect width="100%" height="100%" fill="transparent"></rect>
+
+  <!-- zeer lichte hypsometrische vlek (heel subtiel) -->
+  <g opacity="0.06" fill="#efe9e0">
+    <path d="M200 900c80-220 360-260 520-160 160 100 240 320 120 460-120 140-420 140-560 0-60-60-120-160-80-300z"></path>
+  </g>
+
+  <!-- gewone contourlijnen (dunne, gesloten) -->
+  <g fill="none" stroke="rgba(88,50,20,0.045)" stroke-width="0.9" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Hill A -->
+    <path d="M350 820c-28-36-18-90 18-118 36-28 98-34 150-10 52 24 86 66 116 98 30 32 54 58 36 100-18 42-80 68-128 74-48 6-110-6-160-44z"></path>
+    <path d="M380 840c-22-28-14-68 14-88 28-20 76-24 118-8 42 16 70 44 96 66 26 22 46 40 32 70-14 30-62 48-100 52-38 4-86-4-122-36z"></path>
+    <path d="M405 855c-14-18-10-48 10-62 20-14 52-16 82-6 30 10 50 28 68 42 18 14 32 26 22 44-10 18-44 28-72 30-28 2-62-2-78-8z"></path>
+
+    <!-- Hill B -->
+    <path d="M1050 1150c-40-44-36-110 6-150 42-40 120-54 180-28 60 26 108 84 92 136-16 52-84 94-150 106-66 12-126-2-128-64z"></path>
+    <path d="M1080 1170c-30-34-26-84 4-114 30-30 92-40 136-18 44 22 84 62 72 98-12 36-64 66-116 74-52 8-86-2-96-40z"></path>
+    <path d="M1100 1188c-18-22-16-52 6-72 22-20 56-26 82-12 26 14 46 36 40 58-6 22-40 40-70 44-30 4-54 0-64-18z"></path>
+
+    <!-- Kleine hummel -->
+    <path d="M420 360c-12-14-10-36 6-46 16-10 40-12 60-4 20 8 34 20 46 30 12 10 20 18 12 30-8 12-28 20-46 20-18 0-38-4-78-30z"></path>
+    <path d="M435 372c-8-10-6-24 4-32 10-8 28-10 40-4 12 6 20 14 28 20 8 6 14 10 8 16-6 6-20 10-32 10-12 0-20-2-48-20z"></path>
+  </g>
+
+  <!-- indexcontourlijnen (elk derde of vierde contour, subtiel dikker) -->
+  <g fill="none" stroke="rgba(88,50,20,0.095)" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M350 820c-28-36-18-90 18-118 36-28 98-34 150-10 52 24 86 66 116 98 30 32 54 58 36 100-18 42-80 68-128 74-48 6-110-6-160-44z"></path>
+    <path d="M1050 1150c-40-44-36-110 6-150 42-40 120-54 180-28 60 26 108 84 92 136-16 52-84 94-150 106-66 12-126-2-128-64z"></path>
+  </g>
+
+  <!-- Heel lichte index-accenten (ter visuele referentie, heel subtiel) -->
+  <g fill="none" stroke="rgba(88,50,20,0.06)" stroke-width="0.6" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M405 855c-14-18-10-48 10-62 20-14 52-16 82-6 30 10 50 28 68 42 18 14 32 26 22 44-10 18-44 28-72 30-28 2-62-2-78-8z"></path>
+    <path d="M1100 1188c-18-22-16-52 6-72 22-20 56-26 82-12 26 14 46 36 40 58-6 22-40 40-70 44-30 4-54 0-64-18z"></path>
+  </g>
+
+</svg>
